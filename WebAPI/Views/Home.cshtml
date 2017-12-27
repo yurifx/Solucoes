@@ -1,0 +1,21 @@
+﻿<h2>Home</h2>
+<button onclick="recebeDadosAPI()">Acionando o recebe Dados API</button>
+
+<script>
+    function recebeDadosAPI() {
+        $.ajax({
+            type: "GET",
+            url: "/api/values",
+            data: {
+                'key': 'value'
+            },
+            success: function (response) {
+                console.log(response);
+            },
+            error: function (response) {
+                console.log(responde);
+            }
+        }
+        );
+    }
+</script>
