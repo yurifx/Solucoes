@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseConstutor", "BaseConstu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield_LazyLoading", "Yield_LazyLoading\Yield_LazyLoading.csproj", "{9540F0B6-038E-45AF-B943-605F2BB219D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{97F5489D-C52F-4CDA-8E91-0F30CA1FB81B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9540F0B6-038E-45AF-B943-605F2BB219D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9540F0B6-038E-45AF-B943-605F2BB219D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9540F0B6-038E-45AF-B943-605F2BB219D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F5489D-C52F-4CDA-8E91-0F30CA1FB81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F5489D-C52F-4CDA-8E91-0F30CA1FB81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F5489D-C52F-4CDA-8E91-0F30CA1FB81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F5489D-C52F-4CDA-8E91-0F30CA1FB81B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
