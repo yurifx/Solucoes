@@ -9,9 +9,9 @@ namespace Yield_LazyLoading
 
     /// <summary>
     /// 
-    /// O Yield tem a função de atrasar o processamento (loop) de lista, caso você precise fazer o loop.
+    /// O Yield tem a função de atrasar/postergar o processamento (loop) de lista, caso você precise fazer o loop.
     /// Ele é usado em iterações onde hajam retorno de IEnumerables, listas e afins (collections)
-    /// Podemos retornar um IEnumerable que só ira ser definitivamente carregado, quando acionarmos o .ToList();
+    /// Podemos retornar um IEnumerable que só ira ser definitivamente carregado/executado, quando acionarmos o .ToList();
     /// Ou seja, mesmo chamando o método que contém o retorno Yield, ele só irá ser executado quando enumerarmos (tolist).
     /// 
     /// </summary>
@@ -41,6 +41,11 @@ namespace Yield_LazyLoading
         }
     }
 
+
+    /// <summary>
+    /// Os dois métodos tem a mesma funcionalidade.
+    /// Verificar se existe um número com id > 1 e retornar.
+    /// </summary>
     class OperacaoYield
     {
 
