@@ -17,6 +17,7 @@ namespace EntityFramework.Repository
     class BancoContext: DbContext
     {
         //É necessário passar a connection string para o construtor da classe DbContext.
+        // A connection string pode estar no arquivo app.config ou no arquivo web.config
         public BancoContext(): base("banco")
         {
 
