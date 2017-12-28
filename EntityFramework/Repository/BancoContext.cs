@@ -32,7 +32,15 @@ namespace EntityFramework.Repository
         {
             //Essa configuração faz o entity não criar uma tabela pluralizada.
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+
+
+            //Essa configuração faz o entity mapear uma tabela com um model
+            modelBuilder.Entity<Models.Tabela>().ToTable("Tabela");
+
+
             base.OnModelCreating(modelBuilder);
+
+
         }
 
 
