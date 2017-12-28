@@ -10,20 +10,21 @@ namespace EntityFramework
     {
         static void Main(string[] args)
         {
+
             using (var db = new Repository.BancoContext())
             {
 
                 var lista = db.Tabela.ToList();
 
-                foreach (var item in lista)
-                {
-                    Console.WriteLine($"Nome {item.Nome}");
+                if (lista != null){
+                    foreach (var item in lista)
+                    {
+                        Console.WriteLine($"Nome {item.Nome}");
+                    }
+
+                    Console.ReadLine();
                 }
-
-                Console.ReadLine();
             }
-
-
         }
     }
 }

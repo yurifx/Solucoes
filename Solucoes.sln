@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseConstutor", "BaseConstutor\BaseConstutor.csproj", "{85930F83-6DD7-4ADB-BECA-33FDB14FAD1D}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{E7D64EF1-9B03-4C04-9415-842CC610A4B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO", "ADO\ADO.csproj", "{FD02F9B5-D2C3-4D50-9922-6BB9E92825FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parametros ref_out_params_opcionais", "Parametros ref_out_parms_opcionais\Parametros ref_out_params_opcionais.csproj", "{B61C0010-A1AF-4135-8E38-D75AF938DDBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FD02F9B5-D2C3-4D50-9922-6BB9E92825FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD02F9B5-D2C3-4D50-9922-6BB9E92825FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD02F9B5-D2C3-4D50-9922-6BB9E92825FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B61C0010-A1AF-4135-8E38-D75AF938DDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61C0010-A1AF-4135-8E38-D75AF938DDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61C0010-A1AF-4135-8E38-D75AF938DDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61C0010-A1AF-4135-8E38-D75AF938DDBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity; 
+using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,5 +25,17 @@ namespace EntityFramework.Repository
         }
 
         public DbSet<Models.Tabela> Tabela { get; set; }
+
+
+        //Não é necessário colocar isso abaixo, porém ele é a classe que vai configurar algumas propriedades do entity
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            //Essa configuração faz o entity não criar uma tabela pluralizada.
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            base.OnModelCreating(modelBuilder);
+        }
+
+
+
     }
 }

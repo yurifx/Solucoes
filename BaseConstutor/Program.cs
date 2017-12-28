@@ -25,9 +25,9 @@ namespace BaseConstutor
     //class base
     public class ClassePai
     {
-        public ClassePai(string MensagemClassePai)
+        public ClassePai(/*string MensagemClassePai*/)
         {
-            Console.WriteLine($"Enviado pela classe pai {MensagemClassePai}");
+            Console.WriteLine($"Enviado pela classe pai");
         }
     }
 
@@ -35,12 +35,10 @@ namespace BaseConstutor
     public class ClasseFilha: ClassePai
     {
         //a palavra base, após a declaração do construtor desta classe, faz um acionamento no construtor da classe base que ela herda.
-        public ClasseFilha(): base("Chamando a classe pai")
+        public ClasseFilha(): base(/*"Chamando a classe pai"*/)
         {
             Console.WriteLine($"Mensagem da classe filha");
         }
-
-
     }
 
 
