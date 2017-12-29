@@ -51,8 +51,6 @@ namespace AccessModifiers
         public void MetodoPublico() { }
         protected void MetodoProtected() { }
         internal void MetodoInternal() { }
-
-
     }
 
 
