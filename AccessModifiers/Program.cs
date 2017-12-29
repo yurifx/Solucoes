@@ -21,7 +21,6 @@ namespace AccessModifiers
         static void Main(string[] args)
         {
             //Ver AccessModifiers_Externo.
-
         }
 
 
