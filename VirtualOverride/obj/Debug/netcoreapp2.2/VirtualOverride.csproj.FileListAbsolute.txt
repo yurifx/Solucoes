@@ -1,0 +1,11 @@
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\bin\Debug\netcoreapp2.2\VirtualOverride.deps.json
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\bin\Debug\netcoreapp2.2\VirtualOverride.runtimeconfig.json
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\bin\Debug\netcoreapp2.2\VirtualOverride.runtimeconfig.dev.json
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\bin\Debug\netcoreapp2.2\VirtualOverride.dll
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\bin\Debug\netcoreapp2.2\VirtualOverride.pdb
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\obj\Debug\netcoreapp2.2\VirtualOverride.csprojAssemblyReference.cache
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\obj\Debug\netcoreapp2.2\VirtualOverride.csproj.CoreCompileInputs.cache
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\obj\Debug\netcoreapp2.2\VirtualOverride.AssemblyInfoInputs.cache
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\obj\Debug\netcoreapp2.2\VirtualOverride.AssemblyInfo.cs
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\obj\Debug\netcoreapp2.2\VirtualOverride.dll
+C:\Users\yvasconcelos\source\repos\VirtualOverride\VirtualOverride\obj\Debug\netcoreapp2.2\VirtualOverride.pdb
