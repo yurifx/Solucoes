@@ -1,0 +1,11 @@
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\bin\Debug\netcoreapp2.1\TryCatchFinally.deps.json
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\bin\Debug\netcoreapp2.1\TryCatchFinally.runtimeconfig.json
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\bin\Debug\netcoreapp2.1\TryCatchFinally.runtimeconfig.dev.json
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\bin\Debug\netcoreapp2.1\TryCatchFinally.dll
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\bin\Debug\netcoreapp2.1\TryCatchFinally.pdb
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\obj\Debug\netcoreapp2.1\TryCatchFinally.csprojAssemblyReference.cache
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\obj\Debug\netcoreapp2.1\TryCatchFinally.csproj.CoreCompileInputs.cache
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\obj\Debug\netcoreapp2.1\TryCatchFinally.AssemblyInfoInputs.cache
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\obj\Debug\netcoreapp2.1\TryCatchFinally.AssemblyInfo.cs
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\obj\Debug\netcoreapp2.1\TryCatchFinally.dll
+D:\IntegratedProjects\TryCatchFinally\TryCatchFinally\obj\Debug\netcoreapp2.1\TryCatchFinally.pdb
