@@ -77,6 +77,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Convertions", "Convertions"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converts", "Panels\Convertions\Converts\Converts.csproj", "{ADE8FE9C-DD6A-4278-B303-2DE03CC5880C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structs", "Panels\Types\Structs\Structs.csproj", "{F26367F8-2365-4CDE-AF08-3BB581C059E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{ADE8FE9C-DD6A-4278-B303-2DE03CC5880C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE8FE9C-DD6A-4278-B303-2DE03CC5880C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE8FE9C-DD6A-4278-B303-2DE03CC5880C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26367F8-2365-4CDE-AF08-3BB581C059E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26367F8-2365-4CDE-AF08-3BB581C059E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26367F8-2365-4CDE-AF08-3BB581C059E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26367F8-2365-4CDE-AF08-3BB581C059E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +188,7 @@ Global
 		{B0AB1DEB-5EED-4B37-B44D-DF0C562CE1A8} = {3DADCA88-B401-4963-86A4-EFF869C7762F}
 		{9540F0B6-038E-45AF-B943-605F2BB219D4} = {792A3ABF-9032-41DF-B71B-0C0959BEE645}
 		{ADE8FE9C-DD6A-4278-B303-2DE03CC5880C} = {38C03E78-C544-4182-83A1-9D375FCA7706}
+		{F26367F8-2365-4CDE-AF08-3BB581C059E3} = {3DADCA88-B401-4963-86A4-EFF869C7762F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8BB864D-F5D7-4112-9A3C-2D95D0D5B74B}

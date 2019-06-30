@@ -6,6 +6,11 @@ namespace Converts
     {
         static void Main(string[] args)
         {
+            
+            double mydouble = 21.23;
+            int mynum = (int)mydouble;
+
+            Console.WriteLine(mynum);
             toString_vs_Convert();
             Console.WriteLine("Hello World!");
         }
