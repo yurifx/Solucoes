@@ -215,3 +215,41 @@ Console.WriteLine(b); //55
 
 Console.WriteLine(C); //99
 ```
+
+---
+
+### Delegates, Functions, Actions
+
+```csharp
+using System;
+
+namespace app
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Func<string, string> x = Print;
+            Action<string> y = Log;
+            Execute(x, y);
+        }
+
+        public static string Print(string text)
+        {
+            Console.WriteLine(text);
+            return text;
+        }
+        public static void Log(string text)
+        {
+            Console.WriteLine($"loging: {text}");
+        }
+        static void Execute(Func<string, string> myFunction, Action<string> myAction)
+        {
+            myFunction("hey");
+            myAction("ho");
+        }
+    }
+}
+
+
+```
