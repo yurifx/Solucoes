@@ -253,3 +253,20 @@ namespace app
 
 
 ```
+
+---
+
+### CQRS
+
+`Command Query Responsibility Segregation:`
+
+- Command -> insert, update, delete:
+  _Every command has an output: success or not._
+
+- Query -> select
+
+You can have multiple database, one for reading other for writing
+
+### EventSourcing
+
+Each change in an entity will be saved. So you can go back in time and see how you the entity was in some point in time.
