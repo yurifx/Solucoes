@@ -1,0 +1,14 @@
+vscode 
+control k k > add bookmark
+control p  change from recent files'
+control b hide left menu
+control + zoom in text
+control - zoon out tex
+control shift + zoom in view
+control shift - zoom out view 
+control shift + r => reveal file in sidebar
+alt + f12 view definition
+shift + f12 view references
+
+
+
